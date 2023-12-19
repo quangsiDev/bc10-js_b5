@@ -18,3 +18,16 @@ function sayHelloByName(name) {
 }
 sayHelloByName("Alice");
 sayHelloByName("Toomy");
+// hàm có giá trị trả về
+
+function tinhTong(a, b) {
+  var sum = a + b;
+  return sum;
+}
+
+var result1 = tinhTong(3, 5);
+console.log("😀 - result1", result1);
+
+/**
+ *
+ */
